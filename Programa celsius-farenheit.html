@@ -1,0 +1,47 @@
+﻿<html>
+
+<head>
+<title>Conversor Celsius-Farenheit</title>
+<link rel="stylesheet" type="text/css" href="celsius-farenheit.css" />
+<script type="text/javascript" src="celsius-farenheit.js"></script>
+</head>
+
+<body>
+<h1>Conversor Celsius-Farenheit</h1>
+<p>Insira o valor aqui:</p>
+
+<table style="width:29%;">
+  <tr>
+    <th style="border:1px solid black;">
+		<select name="entrada" id="entrada">
+		<option value="">selecione</option>
+		<option value="celsius">celsius</option>
+		<option value="farenheit">farenheit</option>
+		<option value="kelvin">kelvin</option>
+		</select>
+	</th>
+    <th style="border:1px solid black;">
+		<select name="saida" id="saida">
+		<option value="">selecione</option>
+		<option value="celsius">celsius</option>
+		<option value="farenheit">farenheit</option>
+		<option value="kelvin">kelvin</option>
+		</select>
+	</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid black; width:175px;">
+		<input type="number" id="grausInseridos" size="2" />
+	</td>
+    <td style="border:1px solid black; width:175px;">
+		<p id="exibirRespostaNoHTML"></p>
+	</td>
+  </tr>
+</table>
+
+<button type="submit"id="escolherconversao" onclick="escolherconversao()">Converter</button><br>
+<input type="button" id="botaoHistorico" onclick="Historico()" value="Histórico"/><br>
+<p id="exibirHistoricoNoHTML"></p>
+
+</body>
+</html>

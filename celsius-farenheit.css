@@ -1,0 +1,34 @@
+﻿h1 {
+    text-align:center;}
+  
+  body {
+    font-family: "Copperplate", Arial, serif;
+    min-height: 400px;
+    background-image: url("https://prints.ultracoloringpages.com/5b7e89e5d3ba06e130b512c474350141.png");
+    background-color: white;
+  	background-size: 100vh;
+  	background-position: right;
+   	background-repeat: no-repeat;}
+  select {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 12px;} 	
+  p {
+  	text-align: center;}
+  button {
+  	margin-top: 12px;
+  	padding: 4px 8px;
+  	border-radius: 10px;
+  	background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+  input {
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;}
+  table {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;}
